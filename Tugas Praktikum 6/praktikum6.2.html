@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 6.2 PemWeb</title>
+
+    <style>
+        body {
+            background-image: url("AnimatedGIFLoop009.gif");
+            padding: 50px; box-sizing: border-box;
+        }
+        
+        .flex-container {
+            display: flex;
+            background-color: #f1f1f1;
+            line-height: 475px;
+        }
+
+        .flex-grow {
+            flex-grow: 8; 
+            background-color: yellow;
+        }
+
+        .Nav {
+            flex-grow: 2;
+            background-color: aqua; 
+            padding-top: 10px; 
+        }
+
+        .Header {
+            background-color: yellow;
+            line-height: 75px;
+        }
+
+        .Article {
+            flex-grow: 8; 
+            background-color: white;
+        }
+
+        .Aside {
+            flex-grow: 2; 
+            background-color: aqua;
+        }
+
+        .Footer {
+            background-color: yellow; 
+            line-height: 75px;
+        }
+
+        .flex-container>div {
+            color: black;
+            width: 100px;
+            margin: 0;
+            text-align: start;
+            font-size: 30px;
+        }
+
+        .flex-container>div>span {
+            margin: 35px;
+        }
+
+        .flex-container>div>div>span {
+            margin: 35px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="flex-container">
+        <div class="Nav"><span>Nav</span>
+        </div>
+        <div class="flex-grow">
+            <div class="Header"><span>Header</span></div>
+            <div class="flex-container">
+                <div class="Article"><span>Article</span></div>
+                <div class="Aside"><span>Aside</span></div>
+            </div>
+            <div class="Footer"><span>Footer</span></div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Picker</title>
+</head>
+<body>
+    <div class="containerImgPicker">
+        <div class="titel">
+            <h1>Image Picker</h1>
+        </div>
+        <select id="pilih" onchange="img()">
+            <option value="pilih">-- Pilih Gambar --</option>
+            <option class="gambar" id="cheetah" value="cheetah">Gambar Cheetah</option>
+            <option class="gambar" id="harimau" value="harimau">Gambar Harimau</option>
+            <option class="gambar" id="hiu" value="hiu">Gambar Hiu</option>
+            <option class="gambar" id="singa" value="singa">Gambar Singa</option>
+            <option class="gambar" id="beruang" value="beruang">Gambar Beruang</option>
+        </select>
+        <img id="image" src="" alt="">
+    </div>
+
+    <script>
+        function img() {
+            const pilih = document.getElementById("pilih")
+            if (pilih.value == "cheetah") {
+                document.getElementById("image").src = "cheetah.jpeg"
+                alert("ini gambar Cheetah")
+            }
+            else if (pilih.value == "harimau") {
+                document.getElementById("image").src = "harimau.jpeg"
+                alert("ini gambar Harimau")
+            }
+            else if (pilih.value == "hiu") {
+                document.getElementById("image").src = "hiu.jpeg"
+                alert("ini gambar Hiu")
+            }
+            else if (pilih.value == "singa") {
+                document.getElementById("image").src = "singa.jpeg"
+                alert("ini gambar Singa")
+            }
+            else if (pilih.value == "beruang") {
+                document.getElementById("image").src = "beruang.jpeg"
+                alert("ini gambar Beruang")
+            }
+            else {
+                document.getElementById("image").src = 0
+            }
+        }
+    </script>
+</body>
+</html>

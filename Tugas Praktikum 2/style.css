@@ -1,0 +1,123 @@
+#body {
+    margin: 0px; 
+    padding: 0px; 
+    font-family: sans-serif;
+}
+
+#nav {
+    background-color: #dddddd; 
+    padding: 25px
+}
+
+.vas {
+    display: flex; 
+    justify-content: space-between
+}
+
+.flex {
+    display: flex;
+}
+
+h1 {
+    margin: 0px; padding: 10px
+}
+
+ul {
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    list-style: none;
+    margin: 5px;
+    padding: 10px;
+}
+
+.search{
+    padding: 10px;
+}
+
+#A {
+    padding: 10px;
+    margin: 0;
+}
+
+#order {
+    display: flex; 
+    justify-content: space-between; 
+    gap: 25px; 
+    padding: 25px;
+}
+
+.B {
+    width: 70%;
+}
+
+.firm {
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tq {
+    margin: 20px ;
+}
+
+h2 {
+    margin: -5px;
+}
+
+.b {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.c {
+    display: flex; 
+    flex-direction: column;
+}
+
+.C {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+#aside {
+    width: 30%;
+}
+
+.check {
+    background-color: lightgray; 
+    padding: 1px 25px;
+}
+
+.d {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.discount {
+    width: 100%;
+}
+
+.total {
+    margin: 10px 0px;
+}
+
+#footer {
+    background-color: lightgray; 
+    padding: 25px
+}
+
+.foot {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.email {
+    margin-top: 10px;
+}
+
+button {
+    background-color: red; color: white;
+}

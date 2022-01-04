@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asmali Order</title>
+</head>
+
+<body style="padding: 1em; background-color: white; font-family: sans-serif;">
+    <table style="background-color: white; border-color: black; width: 100%;">
+        <tr>
+            <td style="color: black; text-decoration: none; padding: 1em;">Home   |</td>
+            <td style="color: black; text-decoration: none;">&nbsp;  Generate Link  |</td>
+            <td style="color: black; text-decoration: none;">&nbsp;  Transaction History  |</td>
+            <td style="color: black; text-decoration: none;">&nbsp;  Policy  |</td>
+            <td style="color: black; text-decoration: none;">&nbsp;  Logout  |</td>
+        </tr>
+    </table>
+    <br><br>
+    <table style="width: 100%;">
+        <tr>
+            <td >
+                <input type="file" name="photo">
+            </td>
+            <td>
+                <table>
+                    <tr>
+                        <td>Title Here :</td>
+                        <td><input type="text" name="title" placeholder="Macbook Air €800" style="width: 100%;"></td>
+                    </tr>
+                    <tr>
+                        <td>Description :</td>
+                        <td><textarea name="desc"  cols="30" rows="6" style="width: 100%;">
+Year :
+
+Model :
+
+Condition : 
+                        </textarea></td>
+                    </tr><tr>
+                        <td>Account Number :</td>
+                        <td><input type="text" name="acc_no" placeholder="123-456-789" style="width: 100%;"></td>
+                    </tr><tr>
+                        <td>Bank :</td>
+                        <td>
+                            <select name="bank" style="width: 100%;" >
+                                <option value="HSBC">HSBC</option>
+                                <option value="BCA">BCA</option>
+                                <option value="BNI">BNI</option>
+                                <option value="MANDIRI">MANDIRI</option>
+                            </select>
+                        </td>
+                    </tr><tr>
+                        <td>Account Holder :</td>
+                        <td><input type="text" name="title" placeholder="Name Here" style="width: 100%;"></td>
+                    </tr><tr>
+                        <td>Transaction :</td>
+                        <td style="vertical-align: bottom;">
+                            <select name="EightiesFive" >
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select><br>
+                            * if the transaction is for 3 person, choose 3 from the dropdown list <br><br>
+                            <input type="checkbox" name="mobile"  > <span style="color: green;">Send to Mobile Phone</span><br>
+                            <input type="checkbox" name="email"  > <span style="color: green;">Send to Email</span>
+                        </td>
+                    </tr><tr>
+                        <td>Send to Mobile Phone :</td>
+                        <td><input type="text" name="mobile_no" placeholder="1029380194, 2834093821" style="width: 100%;"></td>
+                    </tr><tr>
+                        <td>Send to Email :</td>
+                        <td><input type="text" name="email_address" placeholder="asmalijdzr@gmail.com" style="width: 100%;"></td>
+                    </tr>
+                </table>
+                <br><br>
+                <input type="submit" value="Generate New Link" style="color: white; background-color: green; padding: 0em 1em 0 1em;">
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
